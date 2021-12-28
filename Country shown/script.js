@@ -36,8 +36,9 @@ request.addEventListener('load', function() {
 });
 
 };
- 
+ getCountryData( prompt("Unesite drzavu: "));
+/*
 // call the function 
 getCountryData('portugal');
 getCountryData('usa');
-getCountryData('cro');
+getCountryData('cro'); */
