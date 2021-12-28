@@ -49,8 +49,8 @@ const getCountryData = function (country) {
 
             if (!neighbour) return;
 
-            return fetch(`https://restcountries.com/v3.1/alpha/${neighbour}`)
-                .then(response => response.json())
+            return fetch(`https://restcountries.com/v3.1/alpha/${neighbour}`);
+              
         })
         .then(response => response.json())
         .then(data1 => renderCountry(data1, 'neighbour'));
